@@ -1,0 +1,215 @@
+*
+{
+font-family: "Segoe UI";
+}
+
+html,body
+{
+margin: 0;
+padding: 0;
+}
+
+a 
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+header
+{
+margin: auto;
+background: lightblue;
+padding: 0.5em 0em;
+overflow: auto;
+}
+
+h3 
+{
+font-weight: 100;
+padding: 0;
+margin: 0;
+display: inline-block;
+}
+
+h3:hover 
+{
+	transition: all 0.25s ease;
+	color: #124c57;
+}
+
+nav 
+{
+	width: 80%;
+	margin: auto;
+}
+
+nav ul 
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 14px;
+	text-align: right;
+	float: right;
+}
+
+nav ul li 
+{
+	display: inline-block;
+}
+
+nav ul li:first-of-type
+{
+	display: block;
+}
+
+nav ul li a 
+{
+	transition: all 0.25s ease;
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover
+{
+	transition: all 0.25s ease;
+	color: grey;
+}
+
+main
+{
+width: 80%;
+margin: auto;
+padding-bottom: 1em;
+margin-top: 1em;
+}
+
+main form 
+{
+	text-align: center;
+}
+
+.contact
+{
+padding-top: 1em;
+}
+
+.contact p
+{
+margin: 0;
+padding: 0;
+}
+
+.contact img
+{
+display: inline-block;
+padding-left: 1em;
+}
+
+.details
+{
+display: inline-block;
+}
+
+table 
+{
+	width: 100%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+img 
+{
+	margin: auto;
+}
+
+tr:first-of-type
+{
+	background: lightgrey !important;
+	font-weight: bold;
+	color: #555;
+}
+
+tr:nth-of-type(odd)
+{
+	background: lightblue;
+}
+
+tr:nth-of-type(even)
+{
+	background: #eef;
+}
+
+td
+{
+	border: 1px solid #888;
+	height: 100px;
+	text-align: center;
+}
+
+#attrTable
+{
+	width: 50%;
+	padding: 0;
+	margin: auto;
+	background: none;
+	border-collapse: separate;
+}
+
+#attrTable td 
+{
+	border: none;
+}
+
+#attrTable td:nth-of-type(odd)
+{
+	background: none;
+	text-align: right;
+}
+
+#attrTable td:nth-of-type(even)
+{
+	background: none;
+	text-align: left;
+}
+
+#attrTable tr
+{
+	background: none;
+}
+
+#loginForm
+{
+	margin: auto;
+	margin-top: 1em;
+	text-align: center;
+	background: lightblue;
+	width: 50%;
+	border: 2px solid #777;
+	padding-bottom: 1em;
+}
+
+#loginForm #err 
+{
+	color: red;
+}
+
+input[type='submit']
+{
+	background: #1e7f91;
+	padding: 1em 2em;
+	color: white;
+	border: none;
+}
+
+input[type='submit']:hover
+{
+	transition: all 0.25s ease;
+	background: #186574;
+}
+
+h2 
+{
+	color: #186574;
+}
